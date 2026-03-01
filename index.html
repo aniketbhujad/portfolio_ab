@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniket Bhujad</title>
+
+    <!-- favicon-->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--custom css link-->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    <!-- #MAIN-->
+    <main>
+
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/avtar_img.png"
+              alt="Aniket Bhujad"
+              width="100%"
+              height="100%"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Aniket Bhujad">
+              Aniket  <br />
+              Bhujad
+            </h1>
+
+            <p class="title">Software Development Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <!-- sidebar info -->
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+
+            <!-- email -->
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto: aniketbhujad@gmail.com" class="contact-link"
+                  >aniketbhujad@gmail.com</a
+                >
+              </div>
+            </li>
+            
+            <!-- resume -->
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="document-text-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Resume</p>
+
+                <a
+                  href="https://drive.google.com/drive/folders/1XID2U4W8jkpTNHpHRTHvGUcOYXx86oJd?usp=sharing"
+                  class="contact-link"
+                  >Download Resume</a
+                >
+              </div>
+            </li>
+
+            <!-- linkedin -->
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">LinkedIn</p>
+
+                <a href="https://www.linkedin.com/in/aniket-bhujad/" class="contact-link">Aniket Bhujad</a>
+              </div>
+            </li>
+
+            <!-- Github -->
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">GitHub</p>
+
+                <a href="https://github.com/aniketbhujad06" class="contact-link">Aniket Bhujad</a>
+              </div>
+            </li>
+
+            <!-- location -->
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Pune, India</address>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About Me</h2>
+          </header>
+
+          <!-- summary -->
+          <section class="about-text">
+            <p>I'm Aniket Bhujad, a second-year Information Technology student with a strong interest in software and full-stack web development. I build responsive frontend applications using HTML, CSS, React, and Redux, and develop backend services with Node.js, RESTful APIs, and MySQL. My core programming skills include C++, Core Java, and JavaScript, and I use tools like Git, GitHub, and Bash for efficient development workflows.</p>
+            <p>I enjoy creating clean, efficient solutions to real-world problems and continuously learning new technologies to grow as a developer.</p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+        
+          <ul class="service-list">
+
+            <!-- first box -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/fe-icon.png"
+                  alt="AI/ML icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Development</h4>
+        
+                <p class="service-item-text">
+                  Building responsive and user-friendly web applications using HTML, CSS, React, and Redux. Focused on creating clean UI designs and smooth user experiences with reusable components and modern design practices.
+                </p>
+              </div>
+            </li>
+        
+            <!-- Second box -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/icon-data.svg"
+                  alt="Data science icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+        
+                <p class="service-item-text">
+                  Developing scalable backend services using Node.js, RESTful APIs, and MySQL. Handling server-side logic, database management, and API integration to build efficient full-stack applications.
+                </p>
+              </div>
+            </li>
+        
+            <!-- Third box -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/icon-dev.svg"
+                  alt="Web development icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming & Problem Solving</h4>
+        
+                <p class="service-item-text">
+                  Strong foundation in C++, Core Java, and JavaScript with a focus on data structures, algorithms, and logical problem solving to build optimized and efficient solutions.
+                </p>
+              </div>
+            </li>
+
+            <!-- Fourth box -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/icon-dev.svg"
+                  alt="Cloud and DevOps icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Tools & Version Control</h4>
+        
+                <p class="service-item-text">
+                  Using Git, GitHub, and Bash for version control, collaboration, and efficient development workflows. Comfortable working in team environments and managing project repositories.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- navbar working -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img
+                  src="./assets/images/avatar-1.png"
+                  alt="Daniel lewis"
+                  width="80"
+                  data-modal-img
+                />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+          </section>
+        </div>
+
+        <!--
+        - clients
+      -->
+
+      <!-- bottom horizontal scrolling bar -->
+
+        <!-- <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-1-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-2-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-3-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-4-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-5-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-6-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+          </ul>
+        </section> -->
+      </article>
+
+      <!--
+      - #RESUME
+    -->
+
+    <article class="resume" data-page="resume">
+      <header>
+        <h2 class="h2 article-title">Resume</h2>
+      </header>
+    
+    <!-- experience -->
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="briefcase-outline"></ion-icon>
+          </div>
+    
+          <h3 class="h3">Experience</h3>
+        </div>
+    
+        <ol class="timeline-list">
+
+        <!-- first experience -->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Cyber Security Virtual Intern - <i>Cisco Networking Academy (NetAcad)</i>
+            </h4>
+
+
+            <p class="timeline-text">
+              • <u>Key Skills:</u> Cybersecurity Fundamentals, Network Security, Threat Analysis, Vulnerability Assessment, Firewall & ACL Configuration, Secure Network Design, Cryptography Basics, Risk Mitigation, Troubleshooting, Hands-on Simulation using Cisco Packet Tracer. <br />
+              • Completed a 2-month virtual internship focused on core cybersecurity concepts including network security, cryptography, access control, threat analysis, vulnerability assessment, and incident response fundamentals. <br />
+              • Designed and implemented secure network topologies using Cisco Packet Tracer, configuring firewalls, VLANs, ACLs, and intrusion prevention mechanisms to simulate real-world cyber attack and defense scenarios. <br />
+              • Conducted hands-on security simulations including brute-force prevention, secure routing configuration, password encryption, and network segmentation to strengthen system resilience.
+            </p>
+          </li>
+
+        <!-- second experience -->
+          <!-- <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+               Software Development in AI Intern - <i>Vivada Tech</i>
+            </h4>
+    
+    
+            <p class="timeline-text">
+              • Developed & optimized Spring Boot backend APIs for AI-powered social media platform with automated content analysis. <br />
+              • Deployed open-source Llama2 LLM based fact-checking algorithm using the FakeNewsNet dataset, cutting costs by 80%. <br />
+              • Built collaborative filtering recommendation engine enhancing user experience & engagement via matrix factorization.
+
+            </p>
+          </li> -->
+        </ol>
+      </section>
+    
+      <!-- education -->
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+    
+          <h3 class="h3">Education</h3>
+        </div>
+    
+        <ol class="timeline-list">
+
+          <!-- current Education -->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              MIT Academy of Engineering, Pune
+            </h4>
+    
+            <span>2024 — Present (expected-2028)</span>
+    
+            <p class="timeline-text">
+              Bachelor of Technology in Information Technology — GPA: 8.41/10
+            </p>
+          </li>
+
+          <!-- HSC Education -->
+           <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Bhausaheb Firodiya Junior College, Ahilyanagar
+            </h4>
+    
+            <span>2022 — 2024</span>
+    
+            <p class="timeline-text">
+              HSC (Science Stream) — percentage: 73%
+            </p>
+          </li>
+
+          <!-- ssc education -->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Bhausaheb Firodiya High School, Ahilyanagar
+            </h4>
+    
+            <!-- <span>2024 — 2028</span> -->
+    
+            <p class="timeline-text">
+              SSC (secondary school) — percentage: 89.80%
+            </p>
+          </li>
+        </ol> 
+      </section>
+    
+      <!-- Projects -->
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="star-outline"></ion-icon>
+          </div>
+    
+          <h3 class="h3">Projects</h3>
+        </div>
+    
+        <ol class="timeline-list">
+          <!-- First Project -->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Air Quality Index (AQI) Web Application — Real-Time Environmental Monitoring Platform
+            </h4>
+    
+            <p class="timeline-text">
+             • Tech / Key Skills: React, Next.js, JavaScript (ES6+), HTML5, CSS3, REST API Integration, Open-Meteo API, Responsive Web Design <br />
+             • Developed a responsive web application that provides real-time Air Quality Index (AQI) data for user-selected locations using live environmental APIs. <br />
+             • Implemented dynamic data fetching and state management to display key pollution metrics such as AQI, PM2.5, and PM10 in an intuitive dashboard interface.<br />
+             • Designed a clean, mobile-friendly UI with conditional rendering, loading states, and error handling to ensure reliable performance across devices.
+            </p>
+          </li>
+
+          <!-- Second Project -->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Algo Sprint — Interactive Data Structures Learning Platform
+            </h4>
+    
+            <p class="timeline-text">
+             • Tech / Key Skills: HTML5, CSS3, JavaScript (ES6+), Data Structures (Doubly Linked List), DOM Manipulation, Interactive UI Development, Animation, Problem Solving <br />
+             • Contributed to a collaborative educational platform by developing the Doubly Linked List module with clear explanations, examples, and interactive visualization. <br />
+             • Designed a beginner-friendly section covering overview, structure, working, and key operations such as insertion, deletion, and traversal <br />
+             • Built an intuitive, responsive interface to simplify complex data structure concepts for learners through visual understanding.
+            </p>
+          </li>
+         
+        </ol>
+      </section>
+    
+      <!-- skills -->
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="build-outline"></ion-icon>
+          </div>
+    
+          <h3 class="h3">Skills</h3>
+        </div>
+    
+        <ol class="timeline-list">
+
+          <!-- programming languages -->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Programming Languages
+            </h4>
+    
+            <p class="timeline-text">
+              Java, Python, Cpp, Javascript, SQL
+            </p>
+          </li>
+    
+          <!-- Web Technologies-->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Web Technologies
+            </h4>
+    
+            <p class="timeline-text">
+              HTML, CSS, React, Redux 
+            </p>
+          </li>
+    
+          <!-- Backend -->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Backend
+            </h4>
+    
+            <p class="timeline-text">
+              Nodejs, RESTful APIs, MySQL
+            </p>
+          </li>
+    
+          <!-- Tools -->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Tools
+            </h4>
+    
+            <p class="timeline-text">
+              Git, Github, Vercel, Bash
+            </p>
+          </li>
+        </ol>
+      </section>
+    </article>
+    
+
+        <!--
+        - #PROJECTS
+      -->
+
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+        <!-- tabs of projects -->
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+
+              <!-- <li class="filter-item">
+                <button data-filter-btn>AI / ML</button>
+              </li> -->
+ 
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+
+            <ul class="project-list">
+  
+            <!-- 1st - project data category must write in small letters -->
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <div class="content-card info-box">
+                  <button
+                    class="skill-button"
+                    data-code-btn
+                    data-link="https://github.com/aniketbhujad06/air-quality-index-ab"
+                  >
+                    <svg
+                      viewBox="0 0 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="#000000"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <title>github [#142]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g
+                          id="Page-1"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          <g
+                            id="Dribbble-Light-Preview"
+                            transform="translate(-140.000000, -7559.000000)"
+                            fill="#000000"
+                          >
+                            <g
+                              id="icons"
+                              transform="translate(56.000000, 160.000000)"
+                            >
+                              <path
+                                d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                id="github-[#142]"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+
+                    Github
+                  </button>
+                </div>
+                <a href="#">
+                  <figure class="project-img">
+                    <div
+                      class="project-item-icon-box"
+                      data-project-btn
+                      data-link="https://air-quality-index-ab.vercel.app/"
+                    >
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project_1.png"
+                      alt="air quality index"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title"> Air Quality Index Dashboard</h3>
+
+                  <p class="project-category">Web App</p>
+                </a>
+              </li>
+
+              <!-- 2nd project -->
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <div class="content-card info-box">
+                  <button
+                    class="skill-button"
+                    data-code-btn
+                    data-link="https://github.com/Shahpure15/DS-Project"
+                  >
+                    <svg
+                      viewBox="0 0 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="#000000"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <title>github [#142]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g
+                          id="Page-1"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          <g
+                            id="Dribbble-Light-Preview"
+                            transform="translate(-140.000000, -7559.000000)"
+                            fill="#000000"
+                          >
+                            <g
+                              id="icons"
+                              transform="translate(56.000000, 160.000000)"
+                            >
+                              <path
+                                d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                id="github-[#142]"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+
+                    Github
+                  </button>
+                </div>
+                <a href="#">
+                  <figure class="project-img">
+                    <div
+                      class="project-item-icon-box"
+                      data-project-btn
+                      data-link="https://shahpure15.github.io/DS-Project/"
+                    >
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project_2.png"
+                      alt="algosprint"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Algo Sprint : Interactive Data Structures Learning Platform </h3>
+
+                  <p class="project-category">Web App</p>
+                </a>
+              </li>
+
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="https://formspree.io/f/mlgwkwbw"
+              method="post"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                rows="15"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
